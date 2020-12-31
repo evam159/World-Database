@@ -63,6 +63,7 @@ Importance: It helps to analyze the structured table of a database. We see the c
   Importance: It is used to combine rows from multiple related tables in a relational database, making use of Primary Keys and Foreign Keys. 
 
 	  Mysql > SELECT world.country.Region, world.countrylanguage.Language FROM world.country LEFT JOIN world.countrylanguage ON world.country.Code = world.countrylanguage.CountryCode WHERE world.country.Region = "Caribbean"
+	  
   ###### Result
 	
   ![](images/5.PNG)
@@ -212,7 +213,7 @@ Importance: It helps to analyze the structured table of a database. We see the c
     Mysql > SELECT CountryCode FROM countrylanguage WHERE Percentage = 0.5 AND Language = 'C++'
    ###### Result 
    
-    ![](images/19.1.PNG)
+   ![](images/19a.PNG)
     
    ###### Query 20: UPDATE
    statement changes the data of one or more records in a table. Either all the rows can be updated, or a subset may be chosen using a condition. 
