@@ -9,7 +9,7 @@ In performing our queries, the database that is being used wasn’t mine. The sa
 # Database all about
 This database shows the different continents of the world and the country that are part of its continent and region. It includes demographic profile, surface area, the gross national product, language that is being used and also the form of the government. 
 
-![](images/22.png)
+
 
 # Where does it come from?
 As I have stated above, the database wasn’t mine. You can download the world database on the link below.
